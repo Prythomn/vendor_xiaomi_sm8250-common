@@ -7994,7 +7994,7 @@ cc_prebuilt_binary {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/bin/imsdatadaemon"],
-			shared_libs: ["libqmi_cci", "libcutils", "liblog", "libqmiservices", "libqmi_csi", "libdsi_netctrl", "libdiag", "libwpa_client", "libcneapiclient", "libandroid_net", "libutils", "libhidlbase", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libqmi_cci", "libcutils", "liblog", "libqmiservices", "libqmi_csi", "libdsi_netctrl", "libdiag", "libcneapiclient", "libandroid_net", "libutils", "libhidlbase", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
